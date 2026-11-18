@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Métiers en voie de disparition — IA &amp; Métiers</title>
+  <!-- Feuille de style commune aux pages de catégories -->
+  <link rel="stylesheet" href="css/categories.css">
+</head>
+<body class="theme-disparition">
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand-link">
+        <img src="assets/logo.svg" alt="Logo IA & Métiers" class="logo">
+        <span>IA &amp; Métiers</span>
+      </a>
+      <div class="page-title-group">
+        <span class="category-tag">Catégorie 01</span>
+        <h1>Les métiers en voie de disparition</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu d'accès direct aux sections + retour à l'accueil -->
+  <nav aria-label="Navigation de la page">
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList">
+      <li><a href="index.html" class="home-link">&larr; Page principale</a></li>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#metiers">Liste des métiers</a></li>
+      <li><a href="#competences">Principales compétences à acquérir</a></li>
+      <li><a href="transformation.html">Catégorie suivante &rarr;</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-container">
+    <main>
+
+      <!-- SECTION 1 : Présentation (2+ articles sur les technologies) -->
+      <section id="presentation">
+        <h2>Présentation des technologies responsables</h2>
+        <div class="articles-grid">
+          <article class="tech-article">
+            <figure class="article-figure">
+              <img src="assets/tech-ocr.svg" alt="Reconnaissance optique de caractères et automatisation" class="zoom-img">
+              <figcaption>L'automatisation documentaire par OCR intelligent.</figcaption>
+            </figure>
+            <h3>L'OCR avancé et l'automatisation robotisée (RPA)</h3>
+            <p>
+              La reconnaissance optique de caractères (OCR) couplée au Deep Learning permet désormais
+              d'extraire, de vérifier et d'intégrer des milliers de documents (factures, formulaires, contrats)
+              en quelques secondes avec un taux d'erreur inférieur à celui d'une saisie humaine.
+            </p>
+          </article>
+
+          <article class="tech-article">
+            <h3>Les agents virtuels vocaux et conversationnels</h3>
+            <p>
+              Fondés sur l'IA générative et le traitement du langage naturel (NLP), les chatbots et
+              agents vocaux comprennent les intentions clients, gèrent plusieurs langues simultanément
+              et traitent les demandes de niveau 1 sans interruption, 24h/24.
+            </p>
+            <details>
+              <summary>En savoir plus sur le NLP</summary>
+              <p>Le Natural Language Processing permet aux machines de synthétiser une voix humaine fluide et d'accéder instantanément aux bases de connaissances.</p>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 2 : Liste des métiers (au moins 3 métiers) -->
+      <section id="metiers">
+        <h2>Liste des métiers impactés</h2>
+        <div class="jobs-list">
+          <article class="job-card">
+            <h3>1. Opérateur de saisie de données</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> OCR avancé &amp; RPA</p>
+            <p>
+              La transcription manuelle de données papier vers des bases informatiques est quasiment
+              remplacée par des pipelines automatisés capables de lire même l'écriture manuscrite.
+            </p>
+          </article>
+
+          <article class="job-card">
+            <h3>2. Agent de centre d'appels (niveau 1)</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> Agents vocaux IA générative</p>
+            <p>
+              Les requêtes standardisées (suivi de colis, prise de rendez-vous, réinitialisation) sont
+              désormais traitées directement par des assistants vocaux autonomes.
+            </p>
+          </article>
+
+          <article class="job-card">
+            <h3>3. Caissier et hôte d'accueil standardisé</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> Vision par ordinateur &amp; bornes IA</p>
+            <p>
+              Les systèmes de reconnaissance d'articles par caméra et les caisses autonomes réduisent
+              fortement le besoin de personnel dédié à l'encaissement répétitif.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 3 : Principales compétences à acquérir -->
+      <section id="competences">
+        <h2>Principales compétences à acquérir</h2>
+        <p class="section-intro">
+          Pour anticiper ces disparitions et réussir sa transition professionnelle, voici les compétences clés à développer :
+        </p>
+        <ul class="skills-checklist" data-category="disparition">
+          <li>
+            <label><input type="checkbox" value="d1"> Supervision et contrôle qualité des outils automatisés (OCR / RPA)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="d2"> Relation client complexe et empathie (gestion de litiges sensibles)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="d3"> Culture numérique et initiation à l'analyse de données</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="d4"> Adaptabilité et formation continue (reconversion vers des métiers hybrides)</label>
+          </li>
+        </ul>
+        <p class="progress-indicator" id="skillProgress">Progression : 0 / 4 compétences validées</p>
+      </section>
+
+    </main>
+
+    <!-- ASIDE : Iframe vidéo YouTube sur la catégorie -->
+    <aside class="video-aside">
+      <h3>Vidéo explicative</h3>
+      <p>Comprendre quels emplois sont les plus menacés par l'automatisation et l'IA :</p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/5dZ_lvDgevk"
+          title="L'intelligence artificielle et l'avenir du travail"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="aside-note">
+        Si la vidéo ne se charge pas en local (`file://`), 
+        <a href="https://www.youtube.com/watch?v=5dZ_lvDgevk" target="_blank" rel="noopener noreferrer">ouvrez-la directement sur YouTube ↗</a>.
+      </p>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <h4>Liens &amp; Réseaux sur l'automatisation des métiers</h4>
+      <ul>
+        <li><a href="https://www.oecd.org/fr/emploi/" target="_blank" rel="noopener noreferrer">OCDE Emploi &amp; Automatisation</a></li>
+        <li><a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer">LinkedIn Learning — Reconversion</a></li>
+        <li><a href="https://www.francetravail.fr/" target="_blank" rel="noopener noreferrer">France Travail — Métiers d'avenir</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy"><a href="index.html">Retour à l'accueil</a> | Mini-projet Web1 2026-2027</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

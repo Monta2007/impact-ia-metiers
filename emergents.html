@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Métiers émergents — IA &amp; Métiers</title>
+  <link rel="stylesheet" href="css/categories.css">
+</head>
+<body class="theme-emergents">
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand-link">
+        <img src="assets/logo.svg" alt="Logo IA & Métiers" class="logo">
+        <span>IA &amp; Métiers</span>
+      </a>
+      <div class="page-title-group">
+        <span class="category-tag">Catégorie 03</span>
+        <h1>Les métiers émergents créés par l'IA</h1>
+      </div>
+    </div>
+  </header>
+
+  <nav aria-label="Navigation de la page">
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList">
+      <li><a href="index.html" class="home-link">&larr; Page principale</a></li>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#metiers">Liste des métiers</a></li>
+      <li><a href="#competences">Principales compétences à acquérir</a></li>
+      <li><a href="disparition.html">Première catégorie &rarr;</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-container">
+    <main>
+
+      <!-- SECTION 1 : Présentation -->
+      <section id="presentation">
+        <h2>Présentation des technologies créatrices d'emplois</h2>
+        <div class="articles-grid">
+          <article class="tech-article">
+            <figure class="article-figure">
+              <img src="assets/tech-prompt.svg" alt="Terminal d'ingénierie de prompt et audit IA" class="zoom-img">
+              <figcaption>L'émergence de l'ingénierie de prompt et de la gouvernance IA.</figcaption>
+            </figure>
+            <h3>Les Grands Modèles de Langage (LLM)</h3>
+            <p>
+              Le déploiement massif des modèles fondationnels (GPT, Claude, Gemini) crée un besoin
+              inédit de spécialistes capables de dialoguer efficacement avec ces systèmes, de structurer
+              leurs contextes et d'optimiser leurs réponses en entreprise.
+            </p>
+          </article>
+
+          <article class="tech-article">
+            <h3>La régulation et l'éthique algorithmique</h3>
+            <p>
+              Avec l'entrée en vigueur de cadres comme l'<strong>AI Act européen</strong>, les organisations
+              doivent impérativement contrôler les biais, garantir la transparence des décisions automatisées
+              et protéger la vie privée des utilisateurs.
+            </p>
+            <details>
+              <summary>Pourquoi auditer les algorithmes ?</summary>
+              <p>Un algorithme entraîné sur des données biaisées peut reproduire des discriminations. L'audit garantit l'équité et la conformité légale.</p>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 2 : Liste des métiers -->
+      <section id="metiers">
+        <h2>Liste des métiers impactés</h2>
+        <div class="jobs-list">
+          <article class="job-card">
+            <h3>1. Ingénieur en Prompt (Prompt Engineer)</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> Grands Modèles de Langage (LLM)</p>
+            <p>
+              Expert chargé de concevoir, tester et optimiser des instructions textuelles complexes
+              afin d'obtenir des résultats fiables, précis et sécurisés de la part des IA génératives.
+            </p>
+          </article>
+
+          <article class="job-card">
+            <h3>2. Éthicien de l'Intelligence Artificielle</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> Systèmes décisionnels autonomes</p>
+            <p>
+              Veille à ce que la conception et l'usage de l'IA respectent les valeurs humaines,
+              l'équité sociale, la protection des données et les réglementations en vigueur.
+            </p>
+          </article>
+
+          <article class="job-card">
+            <h3>3. Auditeur d'algorithmes</h3>
+            <p class="job-tech"><strong>Technologie responsable :</strong> Gouvernance &amp; IA explicable (XAI)</p>
+            <p>
+              Analyse le comportement des modèles prédictifs afin de détecter d'éventuels biais,
+              failles de sécurité ou dérives de performance avant leur mise en production.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 3 : Principales compétences à acquérir -->
+      <section id="competences">
+        <h2>Principales compétences à acquérir</h2>
+        <p class="section-intro">
+          Pour intégrer ces professions inédites et d'avenir, voici les compétences stratégiques à développer :
+        </p>
+        <ul class="skills-checklist" data-category="emergents">
+          <li>
+            <label><input type="checkbox" value="e1"> Maîtrise avancée du Prompt Engineering et des API d'IA</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="e2"> Connaissance du droit du numérique, RGPD et AI Act</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="e3"> Analyse statistique et détection des biais dans les jeux de données</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="e4"> Communication interdisciplinaire (faire le pont entre technique et éthique)</label>
+          </li>
+        </ul>
+        <p class="progress-indicator" id="skillProgress">Progression : 0 / 4 compétences validées</p>
+      </section>
+
+    </main>
+
+    <aside class="video-aside">
+      <h3>Vidéo explicative</h3>
+      <p>Découvrir les nouveaux métiers créés par l'Intelligence Artificielle :</p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/jGwO_UgTS7I"
+          title="Introduction à l'Intelligence Artificielle et aux nouveaux métiers"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="aside-note">
+        Si la vidéo ne se charge pas en local (`file://`), 
+        <a href="https://www.youtube.com/watch?v=jGwO_UgTS7I" target="_blank" rel="noopener noreferrer">ouvrez-la directement sur YouTube ↗</a>.
+      </p>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <h4>Liens &amp; Réseaux sur les nouveaux métiers de l'IA</h4>
+      <ul>
+        <li><a href="https://digital-strategy.ec.europa.eu/fr/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer">Commission Européenne — AI Act</a></li>
+        <li><a href="https://www.cnil.fr/fr/intelligence-artificielle" target="_blank" rel="noopener noreferrer">CNIL — Éthique et IA</a></li>
+        <li><a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">Hugging Face — Communauté IA Open Source</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy"><a href="index.html">Retour à l'accueil</a> | Mini-projet Web1 2026-2027</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

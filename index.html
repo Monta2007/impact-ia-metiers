@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site web statique sur l'impact de l'Intelligence Artificielle sur les métiers : disparition, transformation et émergence.">
+  <title>IA &amp; Métiers — L'impact de l'Intelligence Artificielle sur le travail</title>
+  <!-- Feuille de style dédiée exclusivement à la page principale -->
+  <link rel="stylesheet" href="css/accueil.css">
+</head>
+<body>
+
+  <!-- EN-TÊTE : Bannière, Logo, Titre et Image -->
+  <header id="haut-page">
+    <div class="header-brand">
+      <img src="assets/logo.svg" alt="Logo du site IA et Métiers" class="logo">
+      <div class="header-titles">
+        <h1>L'Impact de l'Intelligence Artificielle sur les Métiers</h1>
+        <p class="subtitle">Comprendre les mutations du marché du travail à l'ère des algorithmes</p>
+      </div>
+    </div>
+    <figure class="header-banner">
+      <img src="assets/banner-ia.svg" alt="Schéma des trois impacts de l'IA sur les professions" class="banner-img">
+    </figure>
+  </header>
+
+  <!-- MENU DE NAVIGATION PRINCIPAL -->
+  <nav aria-label="Navigation principale">
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="disparition.html">Métiers en voie de disparition</a></li>
+      <li><a href="transformation.html">Métiers en transformation</a></li>
+      <li><a href="emergents.html">Métiers émergents</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+
+    <!-- SECTION 1 : Présentation globale (Modèle <section> + <article> + <aside>) -->
+    <section class="intro-section" id="presentation-globale">
+      <h2>Le rôle croissant de l'IA dans le monde professionnel</h2>
+
+      <div class="section-layout">
+        <article class="intro-article">
+          <h3>Une révolution technologique sans précédent</h3>
+          <p>
+            L'évolution rapide de l'<strong>Intelligence Artificielle</strong> transforme en profondeur
+            le marché du travail mondial. Des algorithmes de <mark>machine learning</mark> aux modèles
+            d'IA générative, les entreprises intègrent désormais des systèmes autonomes capables d'analyser,
+            de rédiger, de diagnostiquer et d'automatiser des tâches complexes.
+          </p>
+          <p>
+            Plutôt qu'un phénomène uniforme, cet impact se divise en <strong>trois grandes dynamiques</strong> :
+            la disparition progressive des tâches répétitives, l'hybridation humain-machine dans les professions
+            qualifiées (comme le <em>vibe coding</em> ou la radiologie assistée), et l'apparition de métiers
+            entièrement inédits.
+          </p>
+          <blockquote cite="https://www.oecd.org/">
+            « L'IA ne remplace pas seulement des tâches manuelles, elle redéfinit la valeur ajoutée humaine
+            autour de la créativité, du jugement éthique et de l'adaptation continue. »
+          </blockquote>
+        </article>
+
+        <aside class="intro-aside">
+          <h3>Chiffres &amp; Repères clés</h3>
+          <dl class="stats-list">
+            <dt>Automatisation</dt>
+            <dd>Les tâches de saisie et de support standardisé sont les plus exposées.</dd>
+            <dt>Hybridation</dt>
+            <dd>Plus de productivité grâce aux assistants et copilotes IA.</dd>
+            <dt>Création</dt>
+            <dd>De nouveaux postes centrés sur les prompts, la donnée et l'éthique.</dd>
+          </dl>
+          <button type="button" class="btn-modal" id="openQuizBtn">Tester ma préparation à l'IA</button>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SECTION 2 : Tableau des trois catégories de métiers avec liens -->
+    <section class="table-section" id="categories-metiers">
+      <div class="section-header-row">
+        <h2>Les trois catégories de métiers face à l'IA</h2>
+        <div class="search-box">
+          <label for="tableSearch" class="sr-only">Filtrer les catégories</label>
+          <input type="search" id="tableSearch" placeholder="Rechercher un métier ou mot-clé...">
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table id="categoriesTable">
+          <caption>Synthèse des mutations professionnelles et accès aux dossiers détaillés</caption>
+          <thead>
+            <tr>
+              <th scope="col">Catégorie</th>
+              <th scope="col">Technologies responsables</th>
+              <th scope="col">Exemples de métiers</th>
+              <th scope="col">Niveau d'adaptation requis</th>
+              <th scope="col">Dossier complet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Catégorie">
+                <span class="badge badge-danger">1. Métiers en voie de disparition</span>
+              </td>
+              <td data-label="Technologies">OCR avancé, RPA, agents vocaux génératifs</td>
+              <td data-label="Exemples">Opérateur de saisie, agent de centre d'appels, caissier</td>
+              <td data-label="Adaptation">Reconversion professionnelle urgente</td>
+              <td data-label="Dossier">
+                <a href="disparition.html" class="table-link">Explorer la catégorie &rarr;</a>
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Catégorie">
+                <span class="badge badge-warning">2. Métiers en transformation</span>
+              </td>
+              <td data-label="Technologies">Machine learning médical, copilotes de code, IA générative</td>
+              <td data-label="Exemples">Radiologue, développeur web, journaliste</td>
+              <td data-label="Adaptation">Maîtrise des outils IA (hybridation)</td>
+              <td data-label="Dossier">
+                <a href="transformation.html" class="table-link">Explorer la catégorie &rarr;</a>
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Catégorie">
+                <span class="badge badge-success">3. Métiers émergents</span>
+              </td>
+              <td data-label="Technologies">Grands modèles de langage (LLM), gouvernance algorithmique</td>
+              <td data-label="Exemples">Ingénieur en prompt, éthicien de l'IA, auditeur d'algorithmes</td>
+              <td data-label="Adaptation">Expertise pointue et veille continue</td>
+              <td data-label="Dossier">
+                <a href="emergents.html" class="table-link">Explorer la catégorie &rarr;</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIED DE PAGE : Liens externes sur l'impact de l'IA sur les métiers -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Ressources externes sur l'IA &amp; l'emploi</h4>
+        <ul>
+          <li><a href="https://www.oecd.org/fr/themes/intelligence-artificielle.html" target="_blank" rel="noopener noreferrer">OCDE — Intelligence Artificielle et emploi</a></li>
+          <li><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2023/" target="_blank" rel="noopener noreferrer">World Economic Forum — Future of Jobs</a></li>
+          <li><a href="https://www.francetravail.fr/" target="_blank" rel="noopener noreferrer">Observatoire des métiers et compétences</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation rapide</h4>
+        <ul>
+          <li><a href="disparition.html">Métiers en voie de disparition</a></li>
+          <li><a href="transformation.html">Métiers en transformation</a></li>
+          <li><a href="emergents.html">Métiers émergents</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>À propos du Mini-Projet</h4>
+        <p>Mini-projet Programmation Web 1 (2026-2027) — HTML5, CSS3 &amp; Flexbox.</p>
+        <p><time datetime="2026-12-06">Remise : Décembre 2026</time></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 — Impact de l'IA sur les métiers. Contenu pédagogique documenté.</p>
+    </div>
+  </footer>
+
+  <!-- MODALE INTERACTIVE : Auto-évaluation rapide -->
+  <div class="modal-overlay" id="quizModal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button type="button" class="modal-close" id="closeQuizBtn" aria-label="Fermer">&times;</button>
+      <h3 id="modalTitle">Évaluez votre profil face à l'IA</h3>
+      <form id="quizForm">
+        <p>Quel aspect caractérise le mieux votre activité ou projet professionnel ?</p>
+        <label><input type="radio" name="profil" value="repetitif" required> Tâches répétitives, saisie ou traitement standardisé</label>
+        <label><input type="radio" name="profil" value="hybride"> Conception, analyse, médecine ou développement assisté</label>
+        <label><input type="radio" name="profil" value="innovant"> Gouvernance, création de prompts ou audit de systèmes IA</label>
+        <button type="submit" class="btn-submit">Voir la recommandation</button>
+      </form>
+      <div id="quizResult" class="quiz-result" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <button type="button" id="scrollTopBtn" class="scroll-top" aria-label="Remonter en haut">&uarr;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Nouveaux métiers de l'IA">
+  <rect width="320" height="180" rx="12" fill="#1e293b"/>
+  <rect x="35" y="35" width="250" height="110" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+  <circle cx="55" cy="52" r="4" fill="#ef4444"/>
+  <circle cx="70" cy="52" r="4" fill="#f59e0b"/>
+  <circle cx="85" cy="52" r="4" fill="#10b981"/>
+  <text x="55" y="88" fill="#6ee7b7" font-family="monospace" font-size="13">&gt; prompt_engineer --init</text>
+  <text x="55" y="112" fill="#94a3b8" font-family="monospace" font-size="12">Éthique &amp; Audit IA : OK</text>
+</svg>
